@@ -79,7 +79,7 @@ let questions = [
 	"b": "52,374 times",
 	"c": "52,363 times",
 	"d": "at least 10 times",
-	"image":"quizimages/gif.jpg",
+	"image":"quizimages/ranma.gif",
 	"answer": "c"
    },
     {
