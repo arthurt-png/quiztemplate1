@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>The random information quiz</title>
+	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body onLoad="loadQuestion()">
+
+<div id="lightbox" onclick="closeLightBox()">
+	<div id="message">This is filled with random information that is not expected to be known, good luck!</div>
+</div>
+
+<h2>random information quiz</h2>
+<p>Click on the corresponding answer.</p>
+
+<div class="grid-container">
+  <div class="header">
+    <div id="question">The Question</div>
+  </div>
+  
+  <div class="left">
+    <div>
+    Answers
+     <div class="options" id="a" onclick="markIt('a')">A.</div>
+	 <div class="options" id="b" onclick="markIt('b')">B.</div>
+     <div class="options" id="c" onclick="markIt('c')">C.</div>
+	 <div class="options" id="d" onclick="markIt('d')">D.</div>
+	</div>
+  </div> 
+
+  
+  <div class="right"> <img id="image" src="" alt=""></div>
+  
+  <div class="footer1">
+    <p>Some of this information in this quiz may be interesting.</p>
+  </div>
+  
+  <div class="footer2">
+    <p>Score  <span id="score"></span></p>
+  </div>
+</div>
+
+</body>
+</html>
